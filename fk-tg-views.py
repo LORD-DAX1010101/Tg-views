@@ -15,15 +15,15 @@ threads = []
 init()  
 
 fonts = ['slant']
-colors = [Fore.GREEN]
+colors = [Fore.BLUE]
 
 for font in fonts:
     f = pyfiglet.Figlet(font=font)
     for color in colors:
-        output = f.renderText('SATYAM PRO')
+        output = f.renderText('DAX LORD')
         print(color + output + Style.RESET_ALL)
 
-webbrowser.open('https://t.me/raghidbts')
+webbrowser.open('https://t.me/dax_channel01')
 
 print('\n')
 link1 = input(Back.YELLOW + 'TELEGRAM PUBLIC POST LINK: ' + Fore.LIGHTRED_EX)
